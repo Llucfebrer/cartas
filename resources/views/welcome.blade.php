@@ -15,6 +15,7 @@
     <div class="col-6">
        @foreach($carta->productos as $producto)
         {{$producto->nombre}} {{$producto}}
+        asd
        @endforeach
     </div>
 
