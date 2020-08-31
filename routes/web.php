@@ -23,6 +23,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/cartas', 'FrontendController@index')->name('cartas');
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
