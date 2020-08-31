@@ -25,6 +25,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/cartas', 'FrontendController@index')->name('cartas');
 
+Route::get('/producto', 'FrontendController@producto');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
