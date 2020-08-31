@@ -14,7 +14,7 @@
     </div>
     <div class="col-6">
        @foreach($carta->productos as $producto)
-        {{$producto->nombre}}
+        {{$producto->nombre}} {{$producto}}
        @endforeach
     </div>
 
